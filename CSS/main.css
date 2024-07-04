@@ -64,3 +64,92 @@ nav a:hover {
 .sub-hero img {
     border-radius: 8px;
 }
+
+/* Hairstyles Section */
+#hairstyles {
+    margin: 60px auto 8px auto;
+    padding: 0px 20px;
+
+}
+
+#hairstyles h2 {
+    text-align: center;
+    color: orange;
+    margin-bottom: 20px;
+
+}
+
+#hairstyles ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*Pricing Section */
+#pricing {
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+    padding: 0px 20px;
+
+}
+
+#pricing h2 {
+    text-align: center;
+    color: orange;
+}
+
+#pricing table {
+    border-collapse: collapse;
+}
+
+#pricing table th, td {
+    border: 1px solid orange;
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+   
+}
+
+#pricing table tr:nth-child(even) {
+    background-color: #dddd;
+}
+
+/* Media Section */
+#media {
+    background-color: orange;
+    padding: 60px 20px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#media h2 {
+    text-align: center;
+    color: orange;
+}
+
+#media h4 {
+    color: white;
+}
+
+/* About Section */
+#about {
+    margin-top: 60px;
+    padding: 0px 20px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;   
+}
+
+#about h2 {
+    color: orange;
+}
+
+#about p {
+    font-size: 20px;
+}
