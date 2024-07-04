@@ -1,9 +1,22 @@
 *{
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Make video, img and audio tag to take 100% of the screen */
+img, 
+video, 
+audio{
+    width: 100%;
+}
+
 body {
     background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    background-color: yellow;
 }
