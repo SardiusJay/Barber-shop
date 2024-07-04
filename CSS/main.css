@@ -8,15 +8,35 @@
 img, 
 video, 
 audio{
-    width: 100%;
+    max-width: 100%;
 }
 
-body {
-    background-color: grey;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav {
+nav {
     background-color: yellow;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 12px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    text-align: center;
 }
