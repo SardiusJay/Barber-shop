@@ -170,3 +170,31 @@ nav a:hover {
     color: white;
     font-size: 40px;
 }
+
+#contact h3 {
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contact form label{
+  font-size: 18px;
+}
+
+#contact form input,
+ #contact form {
+    padding: 10px 12px;
+    border: orange;
+    border-radius: 4px;
+    
+}
+
+#contact form button {
+    background-color: black;
+    color: white;
+    
+}
