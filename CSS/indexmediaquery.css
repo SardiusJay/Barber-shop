@@ -1,4 +1,4 @@
-/* Small devices screen 576 and above */
+/* Small devices screen(And it is know as Breakpoint) 576 and above */
 @media (min-width:576px) {
  #hairstyles ul {
    justify-content: center;
@@ -19,4 +19,27 @@
     #contact form {
         width: 300px;
     }
+ }
+
+ /* Small devices screen 1200 and above */
+@media (min-width: 1200px) {
+    #hairstyles {
+    max-width: 900px;
+    }
+
+    #pricing {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  /*  #about {
+        max-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about p {
+        line-height: ;
+    }*/
  }
